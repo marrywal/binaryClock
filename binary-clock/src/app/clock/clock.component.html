@@ -1,0 +1,52 @@
+<div class="timeBox">
+    <div class="timeBoxInner">
+        <div class="outher">
+            <div class="box">
+                <div class="dots">
+                    <div class="invisible"></div>
+                    <div class="invisible"></div>
+                    <div [ngClass]="{'active' : setActive(hour, 0, 2)}"></div>
+                    <div [ngClass]="{'active' : setActive(hour, 0, 1)}"></div>
+                </div>
+                <div class="dots">
+                    <div [ngClass]="{'active' : setActive(hour, 1, 8)}"></div>
+                    <div [ngClass]="{'active' : setActive(hour, 1, 4)}"></div>
+                    <div [ngClass]="{'active' : setActive(hour, 1, 2)}"></div>
+                    <div [ngClass]="{'active' : setActive(hour, 1, 1)}"></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="dots">
+                    <div class="invisible"></div>
+                    <div [ngClass]="{'active' : setActive(minute, 0, 4)}"></div>
+                    <div [ngClass]="{'active' : setActive(minute, 0, 2)}"></div>
+                    <div [ngClass]="{'active' : setActive(minute, 0, 1)}"></div>
+                </div>
+                <div class="dots">
+                    <div [ngClass]="{'active' : setActive(minute, 1, 8)}"></div>
+                    <div [ngClass]="{'active' : setActive(minute, 1, 4)}"></div>
+                    <div [ngClass]="{'active' : setActive(minute, 1, 2)}"></div>
+                    <div [ngClass]="{'active' : setActive(minute, 1, 1)}"></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="dots">
+                    <div class="invisible"></div>
+                    <div [ngClass]="{'active' : setActive(second, 0, 4)}"></div>
+                    <div [ngClass]="{'active' : setActive(second, 0, 2)}"></div>
+                    <div [ngClass]="{'active' : setActive(second, 0, 1)}"></div>
+                </div>
+                <div class="dots">
+                    <div [ngClass]="{'active' : setActive(second, 1, 8)}"></div>
+                    <div [ngClass]="{'active' : setActive(second, 1, 4)}"></div>
+                    <div [ngClass]="{'active' : setActive(second, 1, 2)}"></div>
+                    <div [ngClass]="{'active' : setActive(second, 1, 1)}"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="time">
+            <p>{{time}}</p>
+        </div>
+    </div>
+</div>
