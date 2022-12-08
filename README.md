@@ -1,7 +1,8 @@
 # BinaryClock
 
-View binary clock here: [BinaryClock](https://stackblitz.com/github/marrywal/binaryClock)
+View binary clock: [BinaryClock](https://marrywal.github.io/binaryClock)
 
+View binary clock on Stackblitz: [BinaryClock](https://stackblitz.com/github/marrywal/binaryClock)
 IMPORTANT: Stackblitz doesn't work in Inkognito-Mode
 
 ### Info
